@@ -12,7 +12,10 @@ namespace ConsoleApp6
         static private int retirementAge = 60;
 
         public Person() { }
-        public Person(int age) { this.Age = age; }
+        public Person(int age) 
+        { 
+            this.Age = age; 
+        }
 
         static public int RetirementAge
         {
